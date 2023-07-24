@@ -1,0 +1,11 @@
+docker compose up -d
+docker compose down -v
+docker ps
+AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+docker exec -it airflow_dock-airflow-scheduler-1 sh
+sudo apt install python3-pip
+pip install wget
+requirements.txt
+Dockerfile
+docker build . --tag extending_airflow:latest
+lsb_release -a
